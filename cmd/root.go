@@ -132,6 +132,8 @@ func includeCommandBindings(cmd *cobra.Command) {
 		validatorYieldBindings()
 	case "validator/expectation":
 		validatorExpectationBindings()
+	case "validator/gap":
+		validatorGapBindings()
 	case "wallet/create":
 		walletCreateBindings()
 	case "wallet/import":
